@@ -1,0 +1,11 @@
+# Eclipse IDE: Archivos de configuracion
+.classpath
+.project
+.metadata
+.recommenders
+.class
+.settings
+.springBeans
+*/target/*
+RemoteSystemsTempFiles/*
+Servers/*

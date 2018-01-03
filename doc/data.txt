@@ -1,0 +1,26 @@
+1.-  Crear Projecto Maven base
+
+2.- Cofigurar pom.xml -> link a maven repository
+	(https://search.maven.org/)
+	
+	2.1: hibernate-core
+	2.2: hibernate-entitymanager
+	2.3: javax.persistence
+	2.3: Base de datos: h2database (sustituir por BD requerida)
+	     (http://www.h2database.com/html/quickstart.html)
+	     
+3.- Archivo de configuracion Hibernate: persistence.xml
+	Configurar Datos de conexion a BD y dialecto a utilizar	
+	Dialectos hibernate: 
+		(https://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/dialect/package-summary.html)
+	 
+		
+4.- Crear clase de dominio Empleado
+	- @Entity: Generar la clase como entidad
+	- @Table(name="EMPLEADO") -> Dar nombre a la tabla en BD
+	
+	@Id -> Asignar el campo como entidad en BD
+	@Column(name="COD_EMPLEADO") -> Crear campo en BD
+
+5.- Configurar la clase 'Entity' en xml
+6.- Probar 
